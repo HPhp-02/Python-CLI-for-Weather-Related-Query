@@ -1,0 +1,10 @@
+
+create database userpass;
+
+create table users (user VARCHAR(50) NOT NULL,pass VARCHAR(255) NOT NULL);
+CREATE TABLE Username (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    timestamp DATETIME NOT NULL,
+    location VARCHAR(255) NOT NULL,
+    weather VARCHAR(255) NOT NULL
+);
